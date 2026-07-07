@@ -44,12 +44,9 @@ body {
 }
 
 .greeting-image {
-    display: block;
-    margin: 0 auto;
     border-radius: 50%;
     margin-bottom: 2rem;
-    max-width: 20%;
-    height: auto;
+    width: 12rem;
 }
 
 .greeting-text {
@@ -81,13 +78,10 @@ body {
 }
 
 .about-image {
-    display: block;
-    margin: 0 auto;
     border-radius: 15px;
     margin-bottom: 1rem;
     padding: 1rem;
-    max-width: 30%;
-    height: auto;
+    max-height: 25rem;
 }
 
 .text {
@@ -108,38 +102,33 @@ li {
     color:blue;
 }
 
-.req-img {
+.img {
     display: block;
     margin: 0 auto;
-    max-width: 40%;
+    max-width: 100%;
     height: auto;
+}
+
+.req-img {
+    width: 30rem;
 }
 
 .shop-img {
-    display: block;
-    margin: 0 auto;
-    max-width: 50%;
-    height: auto;
+    width: 30rem;
 }
 
 .to-do-img {
-    display: block;
-    margin: 0 auto;
-    max-width: 50%;
-    height: auto;
+
+    width: 30rem;
+
 }
 
 .place-img {
-    display: block;
-    margin: 0 auto;
-    max-width: 50%;
-    height: auto;
+
+    width: 20rem;
 }
 
 .fav {
-    display: block;
-    margin: 0 auto;
-    max-width: 60%;
-    height: auto;
+    width: 30rem;
     max-height: 300px;
 }
