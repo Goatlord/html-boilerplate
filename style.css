@@ -27,6 +27,17 @@ body {
     background-color: #0fe7b1;
 }
 
+ul li::marker {
+    content: "\2605";
+    color: gold;
+    font-size: 1.5rem;
+}
+
+ol li::marker {
+    color: blue;
+    font-size: 1.5rem;
+}
+
 #greeting, #content{
     max-width: 80%;
     margin: 0 auto;
@@ -99,7 +110,7 @@ li {
 }
 
 .list {
-    color:blue;
+    color: tomato;
 }
 
 .img {
